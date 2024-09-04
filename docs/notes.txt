@@ -1,0 +1,15 @@
+## The use of  if __name__ == "name"
+
+    So this is used jut to do correct import of files, so we do not have unxpected run of the files.
+    Scenario: If we have a main.py file and we have functions that run on main.py file but also these functions 
+    we need them to run on second.py file. Now if we import  the functions on second.py file the functions on main.py
+    file will run automatically when we import them. So if we want to make sure that the functions of main.py do not run when we import main.py
+    we need to run it on main.py using the check if __name__ == "main". 
+    If for exmp: The main.py wouldnt have functions running but just declared functions, than importing wouldnt be a problem. 
+
+
+
+## You need to add to an App password on the email of the sender, and use that as a password for the Sender Details 
+
+
+## All of the emailer.py details that are not visible  are extracted from .env file 
