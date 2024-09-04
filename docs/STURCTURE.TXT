@@ -6,8 +6,8 @@ property_scraper_project/
 │   ├── emailer.py              # Script to handle email sending
 │   └── main.py                 # Main script to orchestrate the scraping, processing, and emailing
 │
-├── tests/                      # Unit tests
-│   ├── test_scraper.py         # Tests for scraper functionality
+├── tests/                      # Unit tests 
+│   ├── test_scraper.py         # Tests for scraper functionality 
 │   ├── test_processor.py       # Tests for data processor
 │   └── test_emailer.py         # Tests for email functionality
 │
